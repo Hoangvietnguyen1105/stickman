@@ -1,0 +1,75 @@
+{
+    "frames": {
+        "image1.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "image2.png": {
+            "frame": {
+                "x": 100,
+                "y": 0,
+                "w": 150,
+                "h": 150
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 150,
+                "h": 150
+            },
+            "sourceSize": {
+                "w": 150,
+                "h": 150
+            }
+        },
+        "image42.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 80,
+                "h": 80
+            }
+        }
+    },
+    "meta": {
+        "app": "PixiJS Texture Packer",
+        "version": "1.0",
+        "image": "../images/pngegg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 250,
+            "h": 150
+        },
+        "scale": 1
+    }
+}

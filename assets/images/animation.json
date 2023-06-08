@@ -1,0 +1,297 @@
+{
+	"frames": {
+		"anh1.png": {
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"anh2.png": {
+			"frame": {
+				"x": 577,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"anh3.png": {
+			"frame": {
+				"x": 1154,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"anh4.png": {
+			"frame": {
+				"x": 0,
+				"y": 433,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"anh5.png": {
+			"frame": {
+				"x": 577,
+				"y": 433,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"anh6.png": {
+			"frame": {
+				"x": 1154,
+				"y": 433,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"anh7.png": {
+			"frame": {
+				"x": 0,
+				"y": 866,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"anh8.png": {
+			"frame": {
+				"x": 577,
+				"y": 866,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"skill1.png": {
+			"frame": {
+				"x": 1154,
+				"y": 866,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"skill2.png": {
+			"frame": {
+				"x": 0,
+				"y": 1299,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		"skill3.png": {
+			"frame": {
+				"x": 577,
+				"y": 1299,
+				"w": 577,
+				"h": 433
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 577,
+				"h": 433
+			},
+			"sourceSize": {
+				"w": 577,
+				"h": 433
+			},
+			"anchor": {
+				"x": 0,
+				"y": 0
+			}
+		}
+	},
+	"animations": {
+		"anh": [
+			"anh1.png",
+			"anh2.png",
+			"anh3.png",
+			"anh4.png",
+			"anh5.png",
+			"anh6.png",
+			"anh7.png",
+			"anh8.png"
+		],
+		"skill": [
+			"skill1.png",
+			"skill2.png",
+			"skill3.png"
+		]
+	},
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.1",
+		"image": "animation.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1731,
+			"h": 1732
+		},
+		"scale": "1",
+		"smartupdate": "$TexturePacker:SmartUpdate:192691cd195d51d73b08b34a23b8b9b5:99c6916bbb6d661201c50cda159b3d6a:9a4e7f1aae4f9765a57ff756284ef5fc$"
+	}
+}

@@ -1,0 +1,54 @@
+import * as PIXI from 'pixi.js'
+export class Game {
+    static init() {
+        this.app = new PIXI.Application({
+            width: innerWidth,
+            height: innerHeight,
+            backgroundColor: 0x1099bb,
+            resizeTo: window
+        });
+        document.body.appendChild(this.app.view);
+        const doc1 = new PIXI.Container()
+
+        //this.app.stage.addChild(backGround2)
+        PIXI.Assets.load('../assets/images/atlas.json').then(() => {
+            // create an array to store the textures
+            const runFrame = [];
+            const punchFrame = [];
+            let i;
+
+            for (i = 0; i < 2; i++) {
+                const texture = PIXI.Texture.from(`anh${i + 1}.png`);
+                runFrame.push(texture);
+            }
+            for (i = 2; i < 4; i++) {
+                const texture = PIXI.Texture.from(`anh${i + 1}.png`);
+                punchFrame.push(texture);
+            }
+            const texture = PIXI.Texture.from(`anh1.png`);
+            const a = PIXI.Sprite.from(texture)
+            this.app.stage.addChild(a)
+            a.x = 100
+            a.y = 100
+            a.width = 500
+            a.height = 500
+
+
+            var explosion = new PIXI.AnimatedSprite(runFrame);
+            explosion.x = Math.random() * this.app.screen.width;
+            explosion.y = Math.random() * this.app.screen.height;
+            explosion.anchor.set(0.5);
+            explosion.rotation = Math.random() * Math.PI;
+            explosion.scale.set(0.75 + Math.random() * 0.5);
+            explosion.animationSpeed = 0.1
+            explosion.gotoAndPlay(Math.random() * 2 | 0);
+            this.app.stage.addChild(explosion);
+
+        });
+    }
+
+}
+
+window.onload = function () {
+    Game.init();
+}
